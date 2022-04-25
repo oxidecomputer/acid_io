@@ -1,0 +1,7 @@
+This is a fork of dataphract/acid_io.  It contains changes necessary to build
+and work properly in embedded no_std environments (those that are neither Unix
+nor Windows and don't necessarily have a C library available either).  The
+fork can be deleted if/when these changes are proven out and accepted by the
+maintainers of acid_io, or if/when we decide we don't need io::{Read,Write} in
+such environments or choose a different source for them.  Until then, this
+fork is managed as described in RFD 211.
